@@ -1,2 +1,34 @@
 # brain-tumor-detection
-Brain cancer detection is a medical imaging-based project that uses advanced computational techniques to identify and classify brain tumors from MRI (Magnetic Resonance Imaging) scans. The goal of this project is to assist doctors in early diagnosis, improve accuracy, and reduce the time required for manual analysis.
+Brain cancer detection is a medical imaging-based project that uses advanced computational techniques to identify and classify brain tumors
+from MRI (Magnetic Resonance Imaging) scans. The goal of this project is to assist doctors in early diagnosis, improve accuracy, and reduce
+the time required for manual analysis.
+
+--> Working Principle
+
+The system follows these main steps:
+
+1.Data Collection
+MRI brain scan images are collected from medical datasets.
+
+2.Preprocessing
+Noise removal
+Image resizing
+Normalization
+
+3.Feature Extraction
+Important features such as texture, shape, and intensity are extracted from images.
+
+4.Model Training
+Deep learning models like:
+Convolutional Neural Networks (CNN)
+Transfer learning models (e.g., ResNet, VGG)
+are trained on labeled datasets.
+
+5.Classification
+The system classifies images into:
+Tumor detected
+No tumor
+or different tumor types (benign/malignant).
+
+6.Prediction Output
+The model outputs the result with accuracy scores and sometimes highlights the tumor region.
